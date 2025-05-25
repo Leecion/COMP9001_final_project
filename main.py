@@ -1,10 +1,11 @@
 import os
 from game import Game
 
+
 def main_menu():
     """Display main menu"""
     game = Game()
-    
+
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("=" * 24)
@@ -13,9 +14,9 @@ def main_menu():
         print("1. Start Game")
         print("2. Game Instructions")
         print("3. Exit")
-        
+
         choice = input("\nPlease select: ")
-        
+
         if choice == "1":
             game.start()
         elif choice == "2":
@@ -26,6 +27,7 @@ def main_menu():
         else:
             print("Invalid choice, please try again.")
             input("Press Enter to continue...")
+
 
 def show_instructions():
     """Display game instructions"""
@@ -38,6 +40,7 @@ def show_instructions():
     print("Enter numbers to choose your actions.")
     print("Good luck!")
     input("\nPress Enter to return to main menu...")
+
 
 if __name__ == "__main__":
     main_menu()
