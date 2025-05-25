@@ -1,3 +1,7 @@
+"""
+Forest Adventure Game - Main Entry Point
+"""
+
 import os
 from game import Game
 
