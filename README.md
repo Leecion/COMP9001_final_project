@@ -26,17 +26,12 @@ A lightweight, text-based adventure game where players explore a mysterious fore
 ## Game Structure
 
 - `main.py` - Main entry point and menu
-- `game.py` - Core game logic
+- `game.py` - Core game logic and main game loop
 - `player.py` - Player class and attributes
 - `locations.py` - Game locations and descriptions
 - `actions.py` - Special actions and events
-- `utils.py` - Utility functions
 
 ## Requirements
 
 - Python 3.x
 - No additional libraries required
-
-## License
-
-This project is open source and available under the MIT License.
